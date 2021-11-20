@@ -1,0 +1,2 @@
+# MonitorCookie
+一款用来监听全局cookie变化的Chrome插件
