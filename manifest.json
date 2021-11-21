@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "MonitorCookie",
+    "version": "0.7.5",
+    "description": "监听cookie",
+    "icons": {
+        "16": "icon/blue16.png",
+        "48": "icon/blue48.png",
+        "128": "icon/blue128.png"
+    },
+    "action": {
+        "default_title": "监听cookie",
+        "default_popup": "popup.html",
+        "default_icon": "/icon/blue48.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "cookies",
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*/",
+        "http://*/"
+    ],
+    "homepage_url": "https://github.com/zzzzls"
+}

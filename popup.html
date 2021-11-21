@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jquery.min.js"></script>
+    <script src="./axios.min.js"></script>
+    <title>Document</title>
+    <style>
+        #app {
+            width: 250px;
+            height: 100px;
+            background: #fff999;
+            margin: 0 auto;
+        }
+        #submit {
+            margin-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <p>域名过滤: <input type="text" placeholder="请输入过滤规则[全部: *]" id="filter_domain"></p>
+        <p>webhook: <input type="text" placeholder="请输入服务地址" id="webhook"></p>
+        <p><button id="submit">修改</button>监听: <input type="checkbox" id="monitor"></p>
+    </div>
+    <script src="./popup.js"></script>
+</body>
+
+</html>
